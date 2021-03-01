@@ -1,0 +1,80 @@
+@import "./reset.css";
+
+* {
+  box-sizing: border-box;
+  color: white;
+}
+p {
+  color: black;
+  font-size: 18px;
+}
+.list-item {
+  /* position: relative; */
+  display: inline-block;
+  background-color: rgb(71, 152, 109);
+  font-size: 18px;
+}
+
+.nav-list {
+  font-size: 0;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px 15px;
+}
+.list-item:hover, .link:hover {
+  background-color: rgb(60, 128, 91);
+}
+
+
+
+.nav-list > .list-item:hover > .sub-nav-list {
+  display: block;
+  position: absolute;
+  background-color: rgb(71, 152, 109);
+  right: 0;
+  left: 0;
+}
+
+.display-none {
+  display: none;
+}
+.sub-nav-item-1:hover .sub-nav-list-1 {
+  display: block;
+  position: absolute;
+  background-color: rgb(71, 152, 109);
+  left: 100%;
+  top: 0;
+}
+.sub-nav-item-2:hover .sub-nav-list-2 {
+  display: block;
+  position: absolute;
+  background-color: rgb(71, 152, 109);
+  left: 100%;
+  top: -0;
+}
+.sub-nav-item-3:hover .sub-nav-list-3 {
+  display: block;
+  position: absolute;
+  background-color: rgb(71, 152, 109);
+  left: 100%;
+  top: 0;
+}
+.position-relative {
+  /* display: block; */
+  position: relative;
+}
+/* .sub-nav-item-1,
+.sub-nav-item-2,
+.sub-nav-item-3 {
+  display: block;
+  position: relative;
+} */
+.sub-nav-item-1:hover,
+.sub-nav-item-2:hover,
+.sub-nav-item-3:hover {
+  background-color: rgb(60, 128, 91);
+}
