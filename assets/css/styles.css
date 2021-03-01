@@ -43,7 +43,7 @@ p {
   display: none;
 }
 
-.sub-nav-item-1:hover .sub-nav-list-1 {
+.sub-nav-item-1:hover .sub-sub-nav-list-1 {
   display: block;
   position: absolute;
   background-color: rgb(71, 152, 109);
@@ -51,7 +51,7 @@ p {
   top: 0;
 }
 
-.sub-nav-item-2:hover .sub-nav-list-2 {
+.sub-nav-item-2:hover .sub-sub-nav-list-2 {
   display: block;
   position: absolute;
   background-color: rgb(71, 152, 109);
@@ -59,7 +59,7 @@ p {
   top: -0;
 }
 
-.sub-nav-item-3:hover .sub-nav-list-3 {
+.sub-nav-item-3:hover .sub-sub-nav-list-3 {
   display: block;
   position: absolute;
   background-color: rgb(71, 152, 109);
